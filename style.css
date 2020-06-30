@@ -1,0 +1,80 @@
+body{
+    font-family: 'Sarala', sans-serif;
+    margin: 0;
+}
+
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 40px;
+}
+p{
+    color: dimgray;
+}
+.orange_highlight{
+    color: orange;
+}
+
+.link-button{
+    text-decoration: none;
+    border: 1px solid orange;
+    border-radius: 10px;
+    padding: 10px 20px;
+    background-color: orange;
+    color: white;
+    font-weight: bold;
+    background-image: linear-gradient(45deg, lightSalmon,tomato);
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.half-width img{
+    width: 100%;
+}
+section{
+     height: 500px;       /*float left korle secton height 0 hoye jai tai bg-img pai na; */
+     padding-bottom: 100px; 
+}
+.top-banner{
+   background-image: url(images/developer-portfolio/top-banner.png);
+   background-repeat: no-repeat;
+}
+.dream-area{
+    background-image: url(images/developer-portfolio/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+ }
+ 
+ .single-experience-area{
+     box-shadow: 10px 10px 40px gray ;
+     border-radius: 10px;
+     height: 80%;
+     background-color: white;
+ }
+
+.experience_area{
+    background-image: url(images/developer-portfolio/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+#full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightSalmon,tomato);
+    border-image-slice: 1;
+}
+#baby-web{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue,cyan);
+    border-image-slice: 1;
+}
+
+footer p{
+    text-align: center;
+    color: dimgray;
+    font-size: 12px;
+}
